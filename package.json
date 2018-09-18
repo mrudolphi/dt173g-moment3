@@ -1,0 +1,29 @@
+{
+  "name": "dt173g-moment3",
+  "version": "1.0.0",
+  "description": "DT173G - Webbutveckling III (moment 3)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrudolphi/dt173g-moment3.git"
+  },
+  "author": "Maria Rudolphi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrudolphi/dt173g-moment3/issues"
+  },
+  "homepage": "https://github.com/mrudolphi/dt173g-moment3#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1"
+  }
+}

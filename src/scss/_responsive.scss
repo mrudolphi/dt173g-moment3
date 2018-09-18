@@ -1,0 +1,63 @@
+@media screen and (max-width: 700px) {
+  header {
+    padding: 20px 0 0 0;
+    border-bottom: 2px solid $black;
+  }
+
+  nav {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0 5px;
+
+    ul {
+      flex-direction: column;
+
+      li {
+        width: 90%;
+        margin: 0 auto 5px;
+        text-align: center;
+
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  section {
+    padding-bottom: 80px;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+
+  h1, h2 {
+    font-size: 2em;
+  }
+
+  p {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+
+@media screen and (min-width: 701px) {
+  %max-width {
+    max-width: 800px;
+  }
+
+  nav {
+    @extend %max-width;
+    margin: 50px auto 0;
+  }
+
+  .gallery {
+    @extend %max-width
+  }
+
+  .portrait {
+    max-width: 600px;
+  }
+}
